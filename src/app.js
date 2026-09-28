@@ -11,7 +11,7 @@ const accountRouter = require("../src/routes/account.routes.js");
 const transactionRoutes = require("./routes/transaction.routes.js");
 
 app.get("/", (req, res) => {
-    res.send("Ledger Service is up and running");
+    res.send("Bank Transaction System is up and running");
 });
 
 app.use("/api/auth", authRouter);
